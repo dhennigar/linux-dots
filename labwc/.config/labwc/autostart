@@ -1,0 +1,2 @@
+swaybg -c "#212529" -m solid_color >/dev/null 2>&1 &
+kanshi >/dev/null 2>&1 &

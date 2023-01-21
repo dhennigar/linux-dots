@@ -1,0 +1,8 @@
+profile docked {
+	output LVDS-1 disable
+	output VGA-1 enable
+}
+
+profile mobile {
+	output LVDS-1 enable
+}

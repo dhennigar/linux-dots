@@ -17,8 +17,8 @@
 
   <!-- <font><theme> can be defined without an attribute to set all places -->
   <theme>
-    <name>Surreal</name>
-    <cornerRadius>0</cornerRadius>
+    <name>Bunsen-Blackish-Remix</name>
+    <cornerRadius>3</cornerRadius>
     <font place="ActiveWindow">
       <name>sans</name>
       <size>10</size>
@@ -59,16 +59,6 @@
     Use GoToDesktop left | right to switch workspaces.
     Use SendToDesktop left | right to move windows.
     See man labwc-actions for further information.
-
-    Workspaces can be configured like this:
-    <desktops>
-      <popupTime>1000</popupTime>
-      <names>
-        <name>Workspace 1</name>
-        <name>Workspace 2</name>
-        <name>Workspace 3</name>
-      </names>
-    </desktops>
   -->
   <desktops>
     <popupTime>1000</popupTime>
@@ -116,7 +106,7 @@
     <keybind key="A-Tab">
       <action name="NextWindow" />
     </keybind>
-    <keybind key="A-Return">
+    <keybind key="W-Return">
       <action name="Execute" command="foot" />
     </keybind>
     <keybind key="W-Space">
@@ -218,18 +208,18 @@
     <doubleClickTime>500</doubleClickTime>
 
     <context name="Frame">
-      <mousebind button="A-Left" action="Press">
+      <mousebind button="W-Left" action="Press">
         <action name="Focus" />
         <action name="Raise" />
       </mousebind>
-      <mousebind button="A-Left" action="Drag">
+      <mousebind button="W-Left" action="Drag">
         <action name="Move" />
       </mousebind>
-      <mousebind button="A-Right" action="Press">
+      <mousebind button="W-Right" action="Press">
         <action name="Focus" />
         <action name="Raise" />
       </mousebind>
-      <mousebind button="A-Right" action="Drag">
+      <mousebind button="W-Right" action="Drag">
         <action name="Resize" />
       </mousebind>
     </context>

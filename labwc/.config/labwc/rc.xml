@@ -17,22 +17,22 @@
 
   <!-- <font><theme> can be defined without an attribute to set all places -->
   <theme>
-    <name>Bunsen-Blackish-Remix</name>
-    <cornerRadius>3</cornerRadius>
+    <name>Numix-SX-Dark</name>
+    <cornerRadius>0</cornerRadius>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>IBM Plex Sans SemiBold</name>
       <size>10</size>
       <slant>normal</slant>
       <weight>normal</weight>
     </font>
     <font place="MenuItem">
-      <name>sans</name>
+      <name>IBM Plex Sans SemiBold</name>
       <size>10</size>
       <slant>normal</slant>
       <weight>normal</weight>
     </font>
     <font place="OnScreenDisplay">
-      <name>sans</name>
+      <name>IBM Plex Sans SemiBold</name>
       <size>10</size>
       <slant>normal</slant>
       <weight>normal</weight>
@@ -100,7 +100,7 @@
   <keyboard>
     <repeatRate>25</repeatRate>
     <repeatDelay>600</repeatDelay>
-    <keybind key="W-S-r" >
+    <keybind key="W-F9" >
       <action name="Reconfigure" />
     </keybind>
     <keybind key="A-Tab">
@@ -113,6 +113,9 @@
       <action name="Execute" command="bemenu-run" />
     </keybind>
     <keybind key="A-F4">
+      <action name="Close" />
+    </keybind>
+    <keybind key="W-w">
       <action name="Close" />
     </keybind>
     <keybind key="W-Up">

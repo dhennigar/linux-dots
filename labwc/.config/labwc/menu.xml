@@ -1,7 +1,15 @@
 <openbox_menu>
 <menu id="root-menu" label="">
   <item label="Terminal"><action name="Execute" command="foot" /></item>
-  <item label="Web Browser"><action name="Execute" command="midori" /></item>
+  <item label="Web Browser"><action name="Execute" command="epiphany" /></item>
+  <item label="File Manager"><action name="Execute" command="thunar" /></item>
+  <item label="Note Pad"><action name="Execute" command="mousepad" /></item>
+  <menu id="office" label ="Office">
+      <item label="Writer"><action name="Execute" command="lowriter" /></item>
+      <item label="Calc"><action name="Execute" command="localc" /></item>
+      <item label="Impress"><action name="Execute" command="loimpress" /></item>
+      <item label="Draw"><action name="Execute" command="lodraw" /></item>
+  </menu>
   <menu id="labwc" label="Labwc">
     <item label="Reconfigure"><action name="Reconfigure" /></item>
     <item label="Exit"><action name="Exit" /></item>

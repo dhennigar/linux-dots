@@ -17,7 +17,7 @@
 
   <!-- <font><theme> can be defined without an attribute to set all places -->
   <theme>
-    <name>Numix-SX-Dark</name>
+    <name>Arc</name>
     <cornerRadius>0</cornerRadius>
     <font place="ActiveWindow">
       <name>IBM Plex Sans SemiBold</name>

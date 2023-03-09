@@ -1,6 +1,7 @@
 <openbox_menu>
 <menu id="root-menu" label="">
   <item label="Terminal"><action name="Execute" command="foot" /></item>
+  <item label="Emacs"><action name="Execute" command="emacs" /></item>
   <item label="Web Browser"><action name="Execute" command="epiphany" /></item>
   <item label="File Manager"><action name="Execute" command="thunar" /></item>
   <item label="Note Pad"><action name="Execute" command="mousepad" /></item>

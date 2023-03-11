@@ -126,4 +126,7 @@ bar {
     }
 }
 
+default_border pixel
+default_floating_border pixel
+
 include /etc/sway/config.d/*

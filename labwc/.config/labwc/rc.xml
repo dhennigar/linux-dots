@@ -71,6 +71,9 @@
     <keybind key="W-Space">
       <action name="Execute" command="bemenu-run" />
     </keybind>
+    <keybind key="W-e">
+      <action name="Execute" command="emacs" />
+    </keybind>
     <keybind key="A-F4">
       <action name="Close" />
     </keybind>
@@ -87,6 +90,9 @@
       <action name="ToggleFullscreen" />
     </keybind>
     <keybind key="A-Space">
+      <action name="ToggleFullscreen" />
+    </keybind>
+    <keybind key="XF86FullScreen">
       <action name="ToggleFullscreen" />
     </keybind>
     <keybind key="A-Left">

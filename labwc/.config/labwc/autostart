@@ -1,2 +1,3 @@
 swaybg -c "#191919" -m solid_color >/dev/null 2>&1 &
 kanshi >/dev/null 2>&1 &
+batsignal &
